@@ -1,0 +1,39 @@
+header {
+  background-color: antiquewhite;
+}
+
+header li {
+  float: left;
+  list-style: none;
+  margin-left: 12px;
+}
+
+main {
+  background-color: azure;
+  flex: 1;
+  text-align: center;
+}
+
+img {
+  width: 400px;
+  height: 250px;
+  margin: 50px;
+}
+
+footer {
+  background-color: beige;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vw;
+}
+
+nav {
+  text-align: center;
+  margin-top: 50px;
+  border: 1px solid #000;
+  display: inline-block;
+}
