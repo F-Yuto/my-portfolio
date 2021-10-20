@@ -11,11 +11,13 @@
   <body>
     <div class="container">
       <header>
-        <ul>
-          <li>TOP</li>
-          <li>ABOUT</li>
-          <li>CONTACT</li>
-        </ul>
+        <div class="menu">
+          <ul>
+            <li id="top">TOP</li>
+            <li>ABOUT</li>
+            <li id="contact">CONTACT</li>
+          </ul>
+        </div>
       </header>
 
       <main>
@@ -26,7 +28,16 @@
         <div class="pictures">
           <h2>Gallery</h2>
           <div class="ramen">
-            <img src="#" id="slide-img" class="slider" />
+            <h3>Ramens</h3>
+            <h2 id="ramen-title"></h2>
+            <p id="ramen-desc"></p>
+            <img src="" id="ramen-img" class="slider" />
+          </div>
+          <div class="mountain">
+            <h3>Mountains</h3>
+            <h2 id="mountain-title"></h2>
+            <p id="mountain-desc"></p>
+            <img src="" id="mountain-img" class="slider" />
           </div>
           <!-- <div class="mountain"></div>
           <div class="scenery"></div> -->
