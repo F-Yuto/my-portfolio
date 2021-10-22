@@ -36,6 +36,10 @@ h2 {
     "Lucida Sans", Arial, sans-serif;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 img {
   width: 400px;
   height: 250px;
@@ -62,6 +66,15 @@ nav {
   padding: 20px;
 }
 
+a {
+  color: greenyellow;
+  font-weight: normal;
+}
+
 .ramen {
   margin: 30px;
+}
+
+.footer-menu {
+  margin: 10px 30px;
 }

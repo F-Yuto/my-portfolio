@@ -1,6 +1,7 @@
 const up = document.getElementById("top");
 const down = document.getElementById("contact");
-const picArray = [
+const gallery = document.getElementById("gallery");
+const ramen = [
   {
     src: "./img/IMG_1999.jpeg",
     title: "吉村家",
@@ -18,7 +19,7 @@ const picArray = [
   },
 ];
 
-const mountainPic = [
+const mountain = [
   {
     src: "./img/IMG_1932.jpeg",
     title: "鋸山",
@@ -36,6 +37,24 @@ const mountainPic = [
   },
 ];
 
+const fish = [
+  {
+    src: "./img/IMG_2607.jpeg",
+    title: "ヤミハタ（ミーバイ）",
+    desc: "淡白な味わいの小型のハタ。",
+  },
+  {
+    src: "./img/IMG_1440.jpeg",
+    title: "カサゴ",
+    desc: "釣り人のターゲットとして人気の高級魚。",
+  },
+  {
+    src: "./img/IMG_1602.jpeg",
+    title: "アオハタ(上)、シロギス(下)",
+    desc: "ハタ類の中では比較的手頃で美味/海の女王と呼ばれ非常に美しい",
+  },
+];
+
 let num = 0;
 
 function slide() {
@@ -45,21 +64,27 @@ function slide() {
     num++;
   }
 
-  document.getElementById("ramen-img").src = picArray[num].src;
-  document.getElementById("ramen-title").textContent = picArray[num].title;
-  document.getElementById("ramen-desc").textContent = picArray[num].desc;
-  document.getElementById("mountain-img").src = mountainPic[num].src;
-  document.getElementById("mountain-title").textContent =
-    mountainPic[num].title;
-  document.getElementById("mountain-desc").textContent = mountainPic[num].desc;
+  document.getElementById("ramen-img").src = ramen[num].src;
+  document.getElementById("ramen-title").textContent = ramen[num].title;
+  document.getElementById("ramen-desc").textContent = ramen[num].desc;
+  document.getElementById("mountain-img").src = mountain[num].src;
+  document.getElementById("mountain-title").textContent = mountain[num].title;
+  document.getElementById("mountain-desc").textContent = mountain[num].desc;
+  document.getElementById("fish-img").src = fish[num].src;
+  document.getElementById("fish-title").textContent = fish[num].title;
+  document.getElementById("fish-desc").textContent = fish[num].desc;
 }
 
-setInterval(slide, 2000);
+setInterval(slide, 2500);
 
 up.onclick = function () {
   window.scroll({ top: 0, behavior: "smooth" });
 };
 
 down.onclick = function () {
-  window.scroll({ top: 1000, behavior: "smooth" });
+  window.scroll({ top: 10000, behavior: "smooth" });
+};
+
+gallery.onclick = function () {
+  window.scroll({ top: 200, behavior: "smooth" });
 };
