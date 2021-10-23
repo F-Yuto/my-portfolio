@@ -1,9 +1,11 @@
 # My Portfolio made while GeekSalon WebExpert Cource
 
-私の趣味の写真展です。
-My Portfolio Demo 👉 _[https://github.com/F-Yuto/my-portfolio/deployments/activity_log?environment=github-pages]_
+### 私の趣味の写真展です。
 
-(ここから上の行は、自分で編集してポートフォリオサイトの紹介にしてください。)
+- ラーメン
+- 山
+- 魚  
+  My Portfolio Demo👉 _[https://github.com/F-Yuto/my-portfolio/deployments/activity_log?environment=github-pages]_
 
 # ポートフォリオ製作課題テンプレート
 
