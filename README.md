@@ -1,6 +1,7 @@
 # My Portfolio made while GeekSalon WebExpert Cource
 
-My Portfolio Demo 👉 *[Github PagesのURLを記載]*
+私の趣味の写真展です。
+My Portfolio Demo 👉 _[https://github.com/F-Yuto/my-portfolio/deployments/activity_log?environment=github-pages]_
 
 (ここから上の行は、自分で編集してポートフォリオサイトの紹介にしてください。)
 
