@@ -5,7 +5,7 @@
 - ラーメン
 - 山
 - 魚  
-  My Portfolio Demo👉 _[https://github.com/F-Yuto/my-portfolio/deployments/activity_log?environment=github-pages]_
+  My Portfolio Demo👉 _[https://f-yuto.github.io/my-portfolio/]_
 
 # ポートフォリオ製作課題テンプレート
 
